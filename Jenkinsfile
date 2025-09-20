@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage('git cloned'){
+        stage('Checkout stage'){
             steps{
                 git url:'https://github.com/gyanpunj/php-project/', branch: "master"
               
